@@ -8,6 +8,9 @@ module.exports = {
         secondary: "#EFC88B",
         body: "#050517",
       },
+      fontFamily: {
+        roboto: ["Roboto", "sans-serif"],
+      },
     },
   },
   plugins: [],
