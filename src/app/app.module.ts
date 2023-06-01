@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './layout/header/header.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { NavbarComponent } from './layout/navbar/navbar.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -15,11 +14,12 @@ import { SubFormComponent } from './sub-form/sub-form.component';
 import { CommentFormComponent } from './comments/comment-form/comment-form.component';
 import { CommentListComponent } from './comments/comment-list/comment-list.component';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
+import { LogoComponent } from './layout/logo/logo.component';
+import { PostCardComponent } from './layout/post-card/post-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
     FooterComponent,
     NavbarComponent,
     HomeComponent,
@@ -30,13 +30,12 @@ import { AboutUsComponent } from './pages/about-us/about-us.component';
     SubFormComponent,
     CommentFormComponent,
     CommentListComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    LogoComponent,
+    PostCardComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

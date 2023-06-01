@@ -6,5 +6,5 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  @apply text-body;
+  @apply text-gray-700;
 }
